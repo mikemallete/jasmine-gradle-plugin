@@ -6,3 +6,6 @@ generatorTest/src/test/javascript/lib
 generatorTest/src/test/javascript/SampleSpec.js
 generatorTest/src/test/javascript/SampleSpecRunner.html
 .gradle
+*.iml
+*.ipr
+*.iws
