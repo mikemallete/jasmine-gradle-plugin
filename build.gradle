@@ -12,6 +12,7 @@ buildscript {
 apply plugin: 'groovy'
 apply plugin: 'eclipse'
 apply plugin: 'maven-oss'
+apply plugin: 'idea'
 
 group = 'com.github.dzhaughnroth'
 version = '0.5'
@@ -139,4 +140,8 @@ pomConfigurator.configurePom( {
        }
     }
 } } );
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '0.9.2'
+}
 
