@@ -10,7 +10,7 @@ class ProjectValueFactory implements DefaultValueFactory {
 	String getBuildDirName() {
 		return project.buildDir.toString();
 	}
-	List<String> sourceIncludes = ["src/main/javascript/**"];
+	List<String> sourceIncludes = ["src/main/javascript/**", "src/main/webapp/**"];
 	List<String> testIncludes = ["src/test/javascript/**" ];
 	List<String> sourceExcludes = [];
 	List<String> testExcludes = [];
